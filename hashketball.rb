@@ -118,9 +118,9 @@ def game_hash
   
 end
 
-def num_points_scored("Ben Gordon")
-  find_player
-  end
+def num_points_scored(player_name)
+  find_player("Ben Gordon")
+end
 
 def player_by_number(number)
   game_hash.each do |location, team_data|

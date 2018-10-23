@@ -119,7 +119,8 @@ def game_hash
 end
 
 def num_points_scored(player_name)
-  find_player("Ben Gordon")
+  find_player(player_name)
+  return data[:points]
 end
 
 def player_by_number(number)

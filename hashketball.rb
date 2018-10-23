@@ -211,7 +211,7 @@ def find_player(player_name)
    game_hash.each do |location, team_data|
     team_data[:players].each do |name, data|
       if name == players_name
-        return data[:points]
+        return data
       end
     end
   end

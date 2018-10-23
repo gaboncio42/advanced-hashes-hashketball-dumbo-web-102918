@@ -207,5 +207,18 @@ def big_shoe_rebounds
 biggest_shoe_rebounds
 end
   
+def find_player(player_name)
+   game_hash.each do |location, team_data|
+    team_data[:players].each do |name, data|
+      if name == players_name
+        return data[:points]
+      end
+    end
+  end
+end
+  
+  
  puts player_by_number(8)
+ 
+ 
   

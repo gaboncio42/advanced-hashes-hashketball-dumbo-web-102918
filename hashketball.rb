@@ -216,6 +216,8 @@ def find_player(player_name)
     end
   end
 end
+
+puts find_player("Ben Gordon")
   
   
  puts player_by_number(8)

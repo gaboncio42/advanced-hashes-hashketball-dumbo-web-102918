@@ -120,7 +120,7 @@ end
 
 def num_points_scored(player_name)
   data = find_player(player_name)
-  find_player(player_name) = data
+  find_player(player_name) 
   return data[:points]
 end
 

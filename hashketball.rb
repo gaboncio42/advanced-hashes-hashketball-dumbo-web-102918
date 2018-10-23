@@ -218,5 +218,5 @@ puts find_player("Ben Gordon")
   
  puts player_by_number(8)
  
- puts num_points_scored("Brendon Haywood")
+ puts num_points_scored("Brendan Haywood")
   

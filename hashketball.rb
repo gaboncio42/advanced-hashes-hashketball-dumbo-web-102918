@@ -118,15 +118,9 @@ def game_hash
   
 end
 
-def num_points_scored(players_name)
-  game_hash.each do |location, team_data|
-    team_data[:players].each do |name, data|
-      if name == players_name
-        return data[:points]
-      end
-    end
+def num_points_scored("Ben Gordon")
+  find_player
   end
-end
 
 def player_by_number(number)
   game_hash.each do |location, team_data|
@@ -222,5 +216,5 @@ puts find_player("Ben Gordon")
   
  puts player_by_number(8)
  
- 
+ puts num_points_scored("Ben Gordon")
   
